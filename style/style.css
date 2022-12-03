@@ -26,3 +26,9 @@ footer{
         width: 100%;
     }
 }
+
+@media all and (min-width: 376px) and (max-width: 768px){
+    .fotoBanco{
+        width: 100%;
+    }
+}
