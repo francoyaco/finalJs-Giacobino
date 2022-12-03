@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(109, 153, 235);
+   
+}
+h1{
+    text-align: center;
+}
+.fotoBanco{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+}
+h2{
+    text-align: center;
+}
+footer{
+   text-align: center;
+   background-color: rgb(109, 153, 235);
+}
+.root{
+    color: red;
+}
+
+@media all and (min-width: 376px) and (max-width: 768px){
+    header{
+        width: 100%;
+    }
+}
