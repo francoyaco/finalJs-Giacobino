@@ -42,12 +42,15 @@
     <h2>Plazo fijo moneda en pesos Argentinos (tasa 75% anual)</h2>
 
     <!-- Ingresar nombre -->
-
+<div class="nombreContenedor">
+ 
     <input type="text" placeholder="Ingrese su nombre" id="nombre">
     <button id="ingresar">INGRESAR</button>
+</div>
     <div id="saludar"></div>
 
     <!-- Seleccion zona -->
+    <div class="contenedorZona">
     <span>Seleccione una zona</span><br>
     <select id="zonas" onchange="zonas()">
         <option value="Belgrano">Belgrano</option>
@@ -55,18 +58,21 @@
         <option value="Villa-Ortuzar">Villa Ortuzar</option>
 
     </select>
-    <br>
+</div>
+    
     <span id="seleccionZona"></span>
+    
     <br>
-    <br>
-
+    
 
   
     <!-- cuentita -->
+    <div class="inputCuenta">
 <input type="number" id="dinero" placeholder="Ingrese un capital">
 <input type="number" id="dias" placeholder="ingresa dias">
     <button id="calcular">Calcular</button>
     <br>
+</div>
    <div id="interes"></div>
 
 
@@ -74,8 +80,6 @@
 
    <div id="root">
     <h3 class="fs-5">COTIZACION EN LINEA</h3>
-    
-
 </div>
 
 
