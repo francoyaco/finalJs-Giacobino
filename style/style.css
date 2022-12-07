@@ -10,6 +10,10 @@ h1{
     justify-content: center;
     background-color: #ccc;
 }
+.imgCarousel {
+    max-height: 500px;
+    
+    object-fit: cover; }
 h2{
     text-align: center;
 }
