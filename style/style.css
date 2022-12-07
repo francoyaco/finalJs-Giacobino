@@ -47,6 +47,16 @@ footer{
     .imgCarousel{
         max-height: 200px;
     }
+    .nombreContenedor{
+        width: 100%;
 }
-
-
+.contenedorZona{
+    width: 100%;
+ }
+ #seleccionZona{
+    width: 100%;
+ }
+ .inputCuenta{ 
+    width: 100%;
+ }
+ }
