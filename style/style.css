@@ -33,4 +33,7 @@ footer{
     .fotoBanco{
         width: 100%;
     }
+    .imgCarousel{
+        max-height: 200px;
+    }
 }
